@@ -53,6 +53,7 @@ const i18n = {
 var currencyMap = {
     'en-US': 'USD',
     'zh-CN': 'CNY',
+    'ja-JP': 'JPY'
 };
 
 //function to perform rough conversion from galactic credits to real currencies
