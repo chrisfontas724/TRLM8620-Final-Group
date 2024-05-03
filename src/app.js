@@ -90,7 +90,7 @@ var reloadCart = () => {
     for(let key in shoppingCart) {
         let product = shoppingCart[key];
         let saveQty;
-        if(product.type == "game") {
+        if(product.type == "droid") {
             saveQty = product.qty;
             shoppingCart[product.productID] = droidMap.get(product.productID);
             shoppingCart[product.productID].qty = saveQty;
@@ -132,7 +132,7 @@ let getProductsList = async() => {
 
     for(let item of productsJSON) {
         //loop through parsed json and add to either game Map or vehicle Map
-        if(item.type == "game") {
+        if(item.type == "droid") {
             droidMap.set(item.productID, item);
         }
         else if(item.type == "vehicle") {
