@@ -17,8 +17,8 @@ let Navbar = {
         let greetingText = i18n.getString("Navbar", "greetingText");
         let cartAlt = i18n.getString("Navbar", "cartAlt");
         let navLinkHome = i18n.getString("Navbar", "navLinkHome");
-        let navLinkDroids = i18n.getString("Navbar", "navLinkDroids");
-        let navLinkVehicles = i18n.getString("Navbar", "navLinkVehicles");
+        let navLinkGames = i18n.getString("Navbar", "navLinkGames");
+        let navLinkHardware = i18n.getString("Navbar", "navLinkHardware");
 
         let localeLabel = i18n.getString("LocaleSelector", "localeLabel");
         let localeEN = i18n.getString("LocaleSelector", "localeEN");
@@ -65,8 +65,8 @@ let Navbar = {
         <!-- nav links here -->
         <ul>
             <li><a href="./#/" class="navLink" id="">${navLinkHome}</a></li>
-            <li><a href="./#/droids" class="navLink" id="droids">${navLinkDroids}</a></li>
-            <li><a href="./#/vehicles" class="navLink" id="vehicles">${navLinkVehicles}</a></li>
+            <li><a href="./#/droids" class="navLink" id="droids">${navLinkGames}</a></li>
+            <li><a href="./#/vehicles" class="navLink" id="vehicles">${navLinkHardware}</a></li>
         </ul>
     </nav>
     `;

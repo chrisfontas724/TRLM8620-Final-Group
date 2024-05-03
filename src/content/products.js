@@ -12,77 +12,77 @@ const products = {
 
         productCatalog = [{
             "productID" : 1,
-            "type": "droid",
+            "type": "game",
             "class": 2,
             "title": i18n.getString("title", "1"),
-            "price": 3000,
+            "price": 59.99,
             "qty": 0,
-            "imageURL": "img/3PO.png",
+            "imageURL": "img/PrincessPeach.jpg",
             "desc": i18n.getString("desc", "1")
         },
         {
             "productID" : 2,
-            "type": "droid",
+            "type": "game",
             "class": 4,
             "title": i18n.getString("title", "2"),
-            "price": 800,
+            "price": 59.99,
             "qty": 0,
-            "imageURL": "img/DUM-series.png",
+            "imageURL": "img/Kirby.jpg",
             "desc": i18n.getString("desc", "2")
         },
         {
             "productID" : 3,
-            "type": "droid",
+            "type": "game",
             "class": 1,
             "title": i18n.getString("title", "3"),
-            "price": 4300,
+            "price": 59.99,
             "qty": 0,
-            "imageURL": "img/2-1B.png",
+            "imageURL": "img/Hogwarts.jpg",
             "desc": i18n.getString("desc", "3")
         },
         {
             "productID" : 4,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "4"),
             "price": 4500,
             "qty": 0,
-            "imageURL": "img/IG-88.png",
+            "imageURL": "img/Luigi.jpg",
             "desc": i18n.getString("desc", "4")
         },
         {
             "productID" : 5,
             "type": "vehicle",
             "title": i18n.getString("title", "5"),
-            "price": 1000000,
+            "price": 299.99,
             "qty": 0,
-            "imageURL": "img/Sphyrna_Corevette.png",
+            "imageURL": "img/Switch.png",
             "desc": i18n.getString("desc", "5")
         },
         {
             "productID" : 6,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "6"),
-            "price": 5210,
+            "price": 59.99,
             "qty": 0,
-            "imageURL": "img/G2.png",
+            "imageURL": "img/Smash.jpg",
             "desc": i18n.getString("desc", "6")
         },
         {
             "productID" : 7,
             "type": "vehicle",
             "title": i18n.getString("title", "7"),
-            "price": 1500000,
+            "price": 200,
             "qty": 0,
-            "imageURL": "img/CR90.png",
+            "imageURL": "img/Switch_Lite_Blue.png",
             "desc": i18n.getString("desc", "7")
         },
         {
             "productID" : 8,
             "type": "vehicle",
             "title": i18n.getString("title", "8"),
-            "price": 8000,
+            "price": 350.00,
             "qty": 0,
-            "imageURL": "img/74-Z.png",
+            "imageURL": "img/Switch_OLED.png",
             "desc": i18n.getString("desc", "8")
         },
         /*
@@ -97,7 +97,7 @@ const products = {
         },
         {
             "productID" : 10,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "10"),
             "price": 3450,
             "qty": 0,
@@ -124,7 +124,7 @@ const products = {
         },
         {
             "productID" : 13,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "13"),
             "price": 4999,
             "qty": 0,
