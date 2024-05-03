@@ -1,0 +1,110 @@
+{
+    "title": {
+        "1": "Princess Peach: Showtime",
+        "2": "Kirby and the Forgotten Land",
+        "3": "Hogwarts Legacy",
+        "4": "Luigi's Mansion 3",
+        "5": "Nintendo Switch",
+        "6": "Super Smash Bros: Ultimate",
+        "7": "Nintendo Switch Lite",
+        "8": "Nintendo Switch OLED Model",
+        "9": "ETA-2 Interceptor",
+        "10": "R3-Series game",
+        "11": "T-70 X-Wing",
+        "12": "Y-Wing Fighter",
+        "13": "Super Tactical game"
+    },
+    "desc": {
+        "1": "Help Peach save the Sparkle Theater from the wicked Grape and the Sour Bunch, who have set the stage for the ultimate tragedy.",
+        "2": "Float off on an all-new adventure as the powerful puffball, Kirby. Explore in 3D stages as you discover a mysterious world with abandoned structures from a past civilization—like a shopping mall?! Copy enemies' abilities like the new Drill and Ranger and use them to attack, explore your surroundings, and save the kidnapped Waddle Dees from the ferocious Beast Pack alongside the mysterious Elfilin. Hope you're hungry for an unforgettable adventure!",
+        "3": "Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+        "4": "Luigi's invited to the towering Last Resort hotel, but when Mario and friends go missing, our green-clad hero will have to conquer his fears to save them! Slam, blow away, and vacuum up ghosts with the all-new Poltergust G-00, and join forces with Gooigi to overcome the puzzling contraptions and mischievous boss on each themed floor. And that's just the Last Resort. Enter the ScareScraper for 8-player local wireless* or online** co-op gameplay.",
+        "5": "Play anytime, anywhere. Get the gaming system that lets you play the games you want, wherever you are, however you like. Bring the full home gaming system experience with you to the park, on an airplane, in a car, or to a friend's apartment.",
+        "6": "Gaming icons clash in the ultimate brawl you can play anytime, anywhere! Smash rivals off the stage as new characters Simon Belmont and King K. Rool join Inkling, Ridley, and every fighter in Super Smash Bros. history. Enjoy enhanced speed and combat at new stages based on the Castlevania series, Super Mario Odyssey, and more!",
+        "7": "Dedicated to handheld play, the Nintendo Switch Lite system is a small and light system at a great price. With a built-in +Control Pad, and a sleek, unibody design, this system is great for on-the-go gaming.",
+        "8": "Get the gaming system that lets you play the games you want, wherever you are, however you like. Bring the full home gaming system experience with you to the park, on an airplane, in a car, or to a friend's apartment. Experience the bright OLED screen, with the sharpest images you'll ever see on a handheld console.",
+        "9": "Measuring 5.47 meters in length, the ETA-2 is a highly maneuverable combat-oriented starfighter and is faster than its Aethersprite predecessor, with twin ion engines providing a maximum acceleration of 5,200G and a max speed of 1,500 kph. The Eta-2 features wings with upper and lower radiator panels, S-foils, that are opened to shed excess heat from the ship's engines. The radiator wings are primarily opened during intense combat. For defense, the ship featured two laser cannons and two ion cannons. Unlike laser cannons, the ship's ion cannons fire bursts of plasma that cause temporary electrical disruptions to their target upon impact.",
+        "10": "The R3-series astromech game features much of the same hardware as its predecessor, the R2 unit, lacking only the earlier game's extendible video sensor. The R3's chassis is largely cylindrical, appearing as an upright tube with a short, truncated cone at its base. Keeping the game upright are two narrow legs, each of which terminate in a treaded foot shaped like trapezoidal prisms, a third leg is housed within the game body and could be extended when necessary to afford greater stability. Capping the unit's design is a hardy, rotating, plastex or transparisteel dome. The astromech is sealed to allow for functionality in the vacuum of space.",
+        "11": "The T-70 X-wing starfighter is a cruciform starfighter measuring 12.48 meters in length with a maximum capacity of a single pilot and bottom-loaded astromech game, which fits into a socket and can be variably configured for different models. If needed, the game can fly the starfighter without the aid of a pilot, and can even do so remotely. The vessel's targeting computer, flight controls and other essential piloting instruments are located inside an armored cockpit module, under which a removable liquid-cooled flight computer further aids the pilot in ship-based operations. Access panels for computer access and storage exist inside the 'nose' of the vessel, along with an auxiliary generator and storage area typically used for stashing survival gear. A small sensor window marks the location of the ships primary sensor array at the very tip of the nosecone, located behind an emergency beacon. Behind the pilot, a built-in life support system allows the occupant to breathe in an oxygenated atmosphere.",
+        "12": "Affectionately known as a \"wishbone\" to Rebel Alliance and New Republic pilots, the Y-wing starfighter is deployed as a fighter-bomber, designed to fight its way to its objective, deliver its payload of high explosives, and fight its way out again. Its weaponry includes two laser cannons, two ion cannons, and two proton torpedo launchers. An astromech game, such as an R2 unit, can be plugged into a socket behind the cockpit to act as a co-pilot and manage the ship's various systems.",
+        "13": "A pretty good game for coordinating attacks. Not good at fighting, just good at planning."
+    },
+    "Navbar": {
+        "searchPlaceholder": "What are you looking for?",
+        "searchButtonLabel": "search products",
+        "logoAlt": "Nintendo Logo",
+        "searchIconAlt": "search icon",
+        "greetingText": "Hi Customer",
+        "historyLink": "ORDER HISTORY",
+        "arrowAlt": "Drop Down Arrow",
+        "cartAlt": "show cart",
+        "navLinkHome": "POPULAR",
+        "navLinkGames": "GAMES",
+        "navLinkHardware": "HARDWARE"
+    },
+    "Home": {
+        "welcomeSubtitle": "Nintendo is where your dreams come true. For a price.",
+        "symbolAlt": "USD"
+    },
+    
+    "Checkout": {
+        "checkoutTitle": "Checkout",
+        "shipSectionLabel": "Shipping Info",
+        "firstNameLabel": "First Name",
+        "lastNameLabel": "Last Name",
+        "coordinatesLabel": "Address",
+        "coordinatesHolder": "Address",
+        "sectorLabel": "Zip Code",
+        "methodLabel": "Shipping Method",
+        "shipLightspeed": "Same-day",
+        "shipOvernight": "Overnight",
+        "shipStandard": "Standard",
+        "paySectionLabel": "Payment",
+        "payNameLabel": "Name on Card",
+        "payNameHolder": "First Last",
+        "accountLabel": "Credit Number",
+        "accountHolder": "1234567-9876-00",
+        "securityLabel": "Security Code",
+        "securityHolder": "123456",
+        "expDateLabel": "Expiration Date",
+        "cartTitle": "Shopping Cart",
+        "deleteAlt": "remove item from cart",
+        "totalLabel": "Total: ",
+        "orderLabel": "PLACE ORDER",
+        "termsStatement": "I have read and agree to the Terms and Conditions",
+        "termsLink": "(View)",
+        "successMessage": "Order placed successfully!",
+        "noItemMessage": "Add items to cart to checkout."
+    },
+    "ProductShow": {
+        "qtyLabel": "Qty: ",
+        "addToCartLabel": "ADD TO CART"
+    },
+    "Cart": {
+        "cartTitle": "Shopping Cart",
+        "noItemMsg": "No items in cart.",
+        "deleteAlt": "Delete item from cart",
+        "totalTitle": "Total: ",
+        "checkoutLabel": "CHECKOUT",
+        "closeAlt": "Close Cart"
+    },
+    "OrderHistory": {
+        "historyTitle": "Order History",
+        "dateHeading": "Date",
+        "numberHeading": "Order Number",
+        "totalHeading": "Total",
+        "statusHeading": "Status"
+    },
+    "Error404": {
+        "errorMessage": "404 Error: Page not found."
+    },
+    "Bottombar": {
+        "menuAlt": "open sidebar menu"
+    },
+    "LocaleSelector": {
+        "localeLabel": "Locale: ",
+        "localeEN": "English - US",
+        "localeJP": "Japanese - Japan"
+    },
+    "Special": "Special"
+}
