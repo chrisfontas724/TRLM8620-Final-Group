@@ -30,17 +30,17 @@
         "13": "A pretty good game for coordinating attacks. Not good at fighting, just good at planning."
     },
     "Navbar": {
-        "searchPlaceholder": "What are you looking for?",
-        "searchButtonLabel": "search products",
+        "searchPlaceholder": "何をお探しですか。",
+        "searchButtonLabel": "製品を検索",
         "logoAlt": "Nintendo Logo",
         "searchIconAlt": "search icon",
         "greetingText": "Hi Customer",
         "historyLink": "ORDER HISTORY",
         "arrowAlt": "Drop Down Arrow",
         "cartAlt": "show cart",
-        "navLinkHome": "POPULAR",
-        "navLinkGames": "GAMES",
-        "navLinkHardware": "HARDWARE"
+        "navLinkHome": "売れ筋商品",
+        "navLinkGames": "ゲーム",
+        "navLinkHardware": "ハードウェア"
     },
     "Home": {
         "welcomeSubtitle": "Nintendo is where your dreams come true. For a price.",
@@ -102,7 +102,7 @@
         "menuAlt": "open sidebar menu"
     },
     "LocaleSelector": {
-        "localeLabel": "Locale: ",
+        "localeLabel": "ロカール",
         "localeEN": "English - US",
         "localeJP": "Japanese - Japan"
     },
