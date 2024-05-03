@@ -52,7 +52,6 @@ const i18n = {
 //used to determine the correct currency symbol
 var currencyMap = {
     'en-US': 'USD',
-    'zh-CN': 'CNY',
     'ja-JP': 'JPY'
 };
 
@@ -61,8 +60,6 @@ var convertCurrency = (price) => {
     switch (locale) {
         case 'en-US':
             return price * 1;
-        case 'zh-CN':
-            return price * 7; 
         case 'ja-JP':
             return price * 153;
         default:
