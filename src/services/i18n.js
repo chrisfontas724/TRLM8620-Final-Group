@@ -63,6 +63,8 @@ var convertCurrency = (price) => {
             return price * 1;
         case 'zh-CN':
             return price * 7; 
+        case 'ja-JP':
+            return price * 153;
         default:
             return price;
     }
