@@ -83,7 +83,7 @@ var updateLocale = async(newLocale) => {
 //update the shopping cart based on the new product list
 var reloadCart = () => {
 
-    //get references to droid and vehicle map
+    //get references to game and vehicle map
     let droidMap = productList.get("droids");
     let vehicleMap = productList.get("vehicles");
 
@@ -131,7 +131,7 @@ let getProductsList = async() => {
     let productsJSON = await Products.loadProductCatalog();
 
     for(let item of productsJSON) {
-        //loop through parsed json and add to either droid Map or vehicle Map
+        //loop through parsed json and add to either game Map or vehicle Map
         if(item.type == "droid") {
             droidMap.set(item.productID, item);
         }
@@ -162,7 +162,7 @@ var readCart = () => {
         let cartIds = JSON.parse(cartIdString);
 
         for(let productAr of cartIds) {
-            if(productAr[1] == 'droid') { //$NON-NLS-L$
+            if(productAr[1] == 'game') { //$NON-NLS-L$
                 let product = droidMap.get(parseInt(productAr[0]));
                 product.qty = parseInt(productAr[2]);
                 shoppingCart[productAr[0]] = product;
