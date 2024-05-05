@@ -757,7 +757,7 @@ h1 {
   color: black;
   font-family: "Audiowide", cursive;
   font-size: 160%;
-  font-size: 2.6vw;
+  font-size: 2.5vw;
 }
 
 h2 {
@@ -765,7 +765,7 @@ h2 {
   font-family: "Audiowide", cursive;
   font-weight: 500;
   font-size: 140%;
-  font-size: 2.1vw;
+  font-size: clamp(1.2rem, 2.1vw, 1.5rem);
 }
 
 h3 {
@@ -773,7 +773,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 120%;
   font-weight: 500;
-  font-size: 1.8vw;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
 }
 
 h4 {
@@ -782,13 +782,13 @@ h4 {
   font-size: 100%;
   font-weight: 500;
   display: inline-block;
-  font-size: 1.5vw;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   line-height: 130%;
-  font-size: 1.2vw;
+  font-size: clamp(0.4rem, 1.1vw, 1.1rem);
 }
 
 .center {
