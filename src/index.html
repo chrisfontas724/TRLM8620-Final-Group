@@ -10,9 +10,12 @@
     <link rel="icon" href="img/favicon.png">
 
     <!-- preconnect to google fonts for speed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <!-- load fonts -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Space+Mono|Montserrat:400,500&display=swap" rel="stylesheet" async>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+
 
     <!-- fonts, css -->
     <link rel="stylesheet" href="css/style.css" async defer>
@@ -33,6 +36,13 @@
 </head>
 
 <body id="particles-js">
+    <div class="video-background">
+        <video autoplay loop muted playsinline id="background-video">
+            <source src="./videos/bg-video-mario.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <img src="./img/bg-img-mario.jpg" alt="Background Image" class="background-image">
+    </div>    
     <div class="bg"></div>
     <div class="cartSlider"></div>
 
