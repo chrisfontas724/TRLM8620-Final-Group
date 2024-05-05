@@ -187,7 +187,7 @@ var addToCart = async (item) =>  {
     }
 
     //re-render the cart and navbar (for click listener)
-    cart.innerHTML = await Cart.render();
+    cart.innerHTML = await Cart.render(); 
     await Cart.after_render();
     await Navbar.after_render();
     //display cart
