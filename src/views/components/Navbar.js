@@ -30,7 +30,8 @@ let Navbar = {
         `<header>
         <!-- logo, search bar, local, profile drop down -->
         <section>
-            <img src="img/Sample Logo.png" id="logo" alt="${logoAlt}">
+            <img src="img/Logo.png" id="logo" alt="${logoAlt}">
+
         </section>
         <section id="search">
             <div id="bar">
