@@ -482,9 +482,12 @@ nav ul li .activeLink::after {
   transition: box-shadow 0.2s ease, -webkit-transform 0.3s ease-in-out;
   -webkit-transform: translateZ(100px);
   transform: translateZ(100px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 .browseGrid article:hover {
+  transform: translateY(-10px);
   box-shadow: 0 0 8px 2px #F20530;
+  background-color: #FFA500;
 }
 
 .gridImage {
