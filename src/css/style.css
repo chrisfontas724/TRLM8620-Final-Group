@@ -951,11 +951,20 @@ p {
 .termContainer {
   background-color: #D1D5DE;
   width: 66%;
-  margin: auto;
-  margin-top: 10px;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 #F20530;
+  transition: margin 0.3s ease-in-out, background-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.termContainer:hover {
+  transform: translateY(-10px);
+  background-color: #FFA500; 
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+  z-index: 100;
 }
 .termContainer .termHead {
   color: #2d2d2a;
