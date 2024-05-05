@@ -482,9 +482,12 @@ nav ul li .activeLink::after {
   transition: box-shadow 0.2s ease, -webkit-transform 0.3s ease-in-out;
   -webkit-transform: translateZ(100px);
   transform: translateZ(100px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 .browseGrid article:hover {
+  transform: translateY(-10px);
   box-shadow: 0 0 8px 2px #F20530;
+  background-color: #FFA500;
 }
 
 .gridImage {
@@ -757,6 +760,7 @@ h1 {
   color: black;
   font-family: "Audiowide", cursive;
   font-size: 160%;
+  font-size: 2.5vw;
 }
 
 h2 {
@@ -764,13 +768,15 @@ h2 {
   font-family: "Audiowide", cursive;
   font-weight: 500;
   font-size: 140%;
+  font-size: clamp(1.2rem, 2.1vw, 1.5rem);
 }
 
 h3 {
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DotGothic16",  "Montserrat", sans-serif;
   font-size: 120%;
   font-weight: 500;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
 }
 
 h4 {
@@ -779,11 +785,13 @@ h4 {
   font-size: 100%;
   font-weight: 500;
   display: inline-block;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   line-height: 130%;
+  font-size: clamp(0.4rem, 1.1vw, 1.1rem);
 }
 
 .center {
@@ -946,11 +954,20 @@ p {
 .termContainer {
   background-color: #D1D5DE;
   width: 66%;
-  margin: auto;
-  margin-top: 10px;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 #F20530;
+  transition: margin 0.3s ease-in-out, background-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.termContainer:hover {
+  transform: translateY(-10px);
+  background-color: #FFA500; 
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+  z-index: 100;
 }
 .termContainer .termHead {
   color: #2d2d2a;
@@ -959,6 +976,39 @@ p {
 }
 .termContainer p {
   margin-bottom: 5px;
+}
+
+.video-background {
+  position: fixed; /* Cover the full screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Behind all other content */
+  overflow: hidden;
+}
+
+#background-video, .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the area without losing aspect ratio */
+}
+
+.background-image {
+  display: none; /* Hidden by default */
+  z-index: -2; /* Behind the video */
+}
+
+@media (max-width: 750px) {
+  #background-video {
+      display: none; /* Hide video on small devices */
+  }
+  .background-image {
+      display: block; /* Show image when video is hidden */
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
