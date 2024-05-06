@@ -58,7 +58,7 @@ header {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 60px;
+  height: 80px;
   display: grid;
   grid-template-columns: 400px 1fr 450px;
 }
@@ -170,6 +170,9 @@ header section h2 {
   cursor: pointer;
   padding: 5px;
   margin-bottom: -1px;
+}
+.dropbtn h2 {
+  font-size: 1em;
 }
 .dropdown .dropbtn #downArrow {
   margin-left: 8px;
@@ -337,7 +340,7 @@ input[type=number]::-webkit-outer-spin-button {
   align-items: center;
 }
 .cartTotal h3 {
-  color: #F20530;
+  color: black!important;
 }
 .cartTotal .totalPrice {
   margin-left: 10px;
@@ -694,7 +697,7 @@ label {
   padding-right: 10px;
 }
 .orderHistory .headings h3 {
-  color: #F20530;
+  color: #2d2d2a;
 }
 .orderHistory .orderItem {
   background-color: #F2F2F2;
