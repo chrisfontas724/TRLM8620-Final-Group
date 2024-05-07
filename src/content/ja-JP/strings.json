@@ -34,10 +34,10 @@
         "searchButtonLabel": "製品を検索",
         "logoAlt": "ニンテンドーのロゴ",
         "searchIconAlt": "検索アイコン",
-        "greetingText": "Hi Customer",
+        "greetingText": "お客さま",
         "historyLink": "注文履歴",
-        "arrowAlt": "Drop Down Arrow",
-        "cartAlt": "show cart",
+        "arrowAlt": "ドロップダウンの矢印",
+        "cartAlt": "カートを表示",
         "navLinkHome": "売れ筋商品",
         "navLinkGames": "ゲーム",
         "navLinkHardware": "ハードウェア"
@@ -45,7 +45,7 @@
     "Home": {
         "welcomeTitle": "任天堂ストアへようこそ！",
         "welcomeSubtitle": "任天堂で夢を叶えましょう！",
-        "symbolAlt": "USD"
+        "symbolAlt": "円"
     },
     
     "Checkout": {
@@ -60,9 +60,9 @@
         "shipLightspeed": "同日発送",
         "shipOvernight": "夜間配送",
         "shipStandard": "通常配送",
-        "paySectionLabel": "Payment",
+        "paySectionLabel": "お支払い",
         "payNameLabel": "カード名義人",
-        "payNameHolder": "First Last",
+        "payNameHolder": "フルネーム",
         "accountLabel": "クレジットカードの番号",
         "accountHolder": "1234567-9876-00",
         "securityLabel": "セキュリティーコード",
@@ -78,8 +78,8 @@
         "noItemMessage": "商品をカートに入れ、チェックアウトする。"
     },
     "ProductShow": {
-        "qtyLabel": "Qty: ",
-        "addToCartLabel": "ADD TO CART"
+        "qtyLabel": "数量: ",
+        "addToCartLabel": "カートに入れる"
     },
     "Cart": {
         "cartTitle": "ショッピングカート",
@@ -100,7 +100,7 @@
         "errorMessage": "404 エラーが発生しました。ページが開けません"
     },
     "Bottombar": {
-        "menuAlt": "open sidebar menu"
+        "menuAlt": "サイドバーのメニューを開く"
     },
     "LocaleSelector": {
         "localeLabel": "ロカール",
