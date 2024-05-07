@@ -12,7 +12,7 @@ const products = {
 
         productCatalog = [{
             "productID" : 1,
-            "type": "droid",
+            "type": "game",
             "class": 2,
             "title": i18n.getString("title", "1"),
             "price": 59.99,
@@ -22,7 +22,7 @@ const products = {
         },
         {
             "productID" : 2,
-            "type": "droid",
+            "type": "game",
             "class": 4,
             "title": i18n.getString("title", "2"),
             "price": 59.99,
@@ -32,7 +32,7 @@ const products = {
         },
         {
             "productID" : 3,
-            "type": "droid",
+            "type": "game",
             "class": 1,
             "title": i18n.getString("title", "3"),
             "price": 59.99,
@@ -42,7 +42,7 @@ const products = {
         },
         {
             "productID" : 4,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "4"),
             "price": 4500,
             "qty": 0,
@@ -51,7 +51,7 @@ const products = {
         },
         {
             "productID" : 5,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "5"),
             "price": 299.99,
             "qty": 0,
@@ -60,7 +60,7 @@ const products = {
         },
         {
             "productID" : 6,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "6"),
             "price": 59.99,
             "qty": 0,
@@ -69,7 +69,7 @@ const products = {
         },
         {
             "productID" : 7,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "7"),
             "price": 200,
             "qty": 0,
@@ -78,7 +78,7 @@ const products = {
         },
         {
             "productID" : 8,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "8"),
             "price": 350.00,
             "qty": 0,
@@ -88,7 +88,7 @@ const products = {
         /*
         {
             "productID" : 9,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "9"),
             "price": 200000,
             "qty": 0,
@@ -97,7 +97,7 @@ const products = {
         },
         {
             "productID" : 10,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "10"),
             "price": 3450,
             "qty": 0,
@@ -106,7 +106,7 @@ const products = {
         },
         {
             "productID" : 11,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "11"),
             "price": 150000,
             "qty": 0,
@@ -115,7 +115,7 @@ const products = {
         },
         {
             "productID" : 12,
-            "type": "vehicle",
+            "type": "hardware",
             "title": i18n.getString("title", "12"),
             "price": 134999,
             "qty": 0,
@@ -124,7 +124,7 @@ const products = {
         },
         {
             "productID" : 13,
-            "type": "droid",
+            "type": "game",
             "title": i18n.getString("title", "13"),
             "price": 4999,
             "qty": 0,

@@ -42,12 +42,20 @@ let Home = {
         let articles = document.querySelectorAll("article");
 
         //click listener to redirect on product click
-        for(let curProduct of articles) {
-            curProduct.addEventListener("click", function() {
-                location.href=`./#/${curProduct.classList[0]}s/` + curProduct.id;
-            }, false);
-            curProduct.classList.add("zoom");
+        for (let curProduct of articles) {
+        curProduct.addEventListener("click", function() {
+            let className = curProduct.classList[0];
+            let url;
+            if (className !== "hardware") {
+                url = `./#/${className}s/` + curProduct.id;
+            } else {
+                url = `./#/${className}/` + curProduct.id;
+            }
+            location.href = url;
+        },      false);
+        curProduct.classList.add("zoom");
         }
+
 
     }
 

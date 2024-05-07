@@ -14,12 +14,12 @@ let Browse = {
 
         let title = i18n.getString("Categories", "all");
 
-        if(type == "droids") {
-            productMap = productList.get('droids');
+        if(type == "games") {
+            productMap = productList.get('games');
             title +=  i18n.getString("Categories", "games");
         }
-        else if(type == "vehicles") {
-            productMap = productList.get('vehicles');
+        else if(type == "hardware") {
+            productMap = productList.get('hardware');
             title +=  i18n.getString("Categories", "hardware");
         }
 
