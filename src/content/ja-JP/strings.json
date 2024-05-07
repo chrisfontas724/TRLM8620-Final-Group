@@ -32,10 +32,10 @@
     "Navbar": {
         "searchPlaceholder": "何をお探しですか。",
         "searchButtonLabel": "製品を検索",
-        "logoAlt": "Nintendo Logo",
-        "searchIconAlt": "search icon",
+        "logoAlt": "ニンテンドーのロゴ",
+        "searchIconAlt": "検索アイコン",
         "greetingText": "Hi Customer",
-        "historyLink": "ORDER HISTORY",
+        "historyLink": "注文履歴",
         "arrowAlt": "Drop Down Arrow",
         "cartAlt": "show cart",
         "navLinkHome": "売れ筋商品",
@@ -43,60 +43,60 @@
         "navLinkHardware": "ハードウェア"
     },
     "Home": {
-        "welcomeSubtitle": "Nintendo is where your dreams come true. For a price.",
+        "welcomeSubtitle": "任天堂で夢を叶えましょう！",
         "symbolAlt": "USD"
     },
     
     "Checkout": {
-        "checkoutTitle": "Checkout",
-        "shipSectionLabel": "Shipping Info",
-        "firstNameLabel": "First Name",
-        "lastNameLabel": "Last Name",
-        "coordinatesLabel": "Address",
-        "coordinatesHolder": "Address",
-        "sectorLabel": "Zip Code",
-        "methodLabel": "Shipping Method",
-        "shipLightspeed": "Same-day",
-        "shipOvernight": "Overnight",
-        "shipStandard": "Standard",
+        "checkoutTitle": "チェックアウト",
+        "shipSectionLabel": "配送情報",
+        "firstNameLabel": "下の名前",
+        "lastNameLabel": "苗字",
+        "coordinatesLabel": "住所",
+        "coordinatesHolder": "住所",
+        "sectorLabel": "ジップコード",
+        "methodLabel": "運送方法",
+        "shipLightspeed": "同日発送",
+        "shipOvernight": "夜間配送",
+        "shipStandard": "通常配送",
         "paySectionLabel": "Payment",
-        "payNameLabel": "Name on Card",
+        "payNameLabel": "カード名義人",
         "payNameHolder": "First Last",
-        "accountLabel": "Credit Number",
+        "accountLabel": "クレジットカードの番号",
         "accountHolder": "1234567-9876-00",
-        "securityLabel": "Security Code",
+        "securityLabel": "セキュリティーコード",
         "securityHolder": "123456",
-        "expDateLabel": "Expiration Date",
-        "cartTitle": "Shopping Cart",
-        "deleteAlt": "remove item from cart",
-        "totalLabel": "Total: ",
-        "orderLabel": "PLACE ORDER",
-        "termsStatement": "I have read and agree to the Terms and Conditions",
-        "termsLink": "(View)",
-        "successMessage": "Order placed successfully!",
-        "noItemMessage": "Add items to cart to checkout."
+        "expDateLabel": "有効期限",
+        "cartTitle": "ショッピングカート",
+        "deleteAlt": "カートから製品を取り除く",
+        "totalLabel": "合計: ",
+        "orderLabel": "注文する",
+        "termsStatement": "利用規約に合意しました",
+        "termsLink": "（表示）",
+        "successMessage": "ご注文承りました",
+        "noItemMessage": "商品をカートに入れ、チェックアウトする。"
     },
     "ProductShow": {
         "qtyLabel": "Qty: ",
         "addToCartLabel": "ADD TO CART"
     },
     "Cart": {
-        "cartTitle": "Shopping Cart",
+        "cartTitle": "ショッピングカート",
         "noItemMsg": "No items in cart.",
         "deleteAlt": "Delete item from cart",
-        "totalTitle": "Total: ",
-        "checkoutLabel": "CHECKOUT",
+        "totalTitle": "合計: ",
+        "checkoutLabel": "チェックアウト",
         "closeAlt": "Close Cart"
     },
     "OrderHistory": {
-        "historyTitle": "Order History",
-        "dateHeading": "Date",
-        "numberHeading": "Order Number",
-        "totalHeading": "Total",
-        "statusHeading": "Status"
+        "historyTitle": "注文履歴",
+        "dateHeading": "日付",
+        "numberHeading": "注文番号",
+        "totalHeading": "合計",
+        "statusHeading": "ステータス"
     },
     "Error404": {
-        "errorMessage": "404 Error: Page not found."
+        "errorMessage": "404 エラーが発生しました。ページが開けません"
     },
     "Bottombar": {
         "menuAlt": "open sidebar menu"
@@ -106,5 +106,5 @@
         "localeEN": "English - US",
         "localeJP": "Japanese - Japan"
     },
-    "Special": "Special"
+    "Special": "特別"
 }
