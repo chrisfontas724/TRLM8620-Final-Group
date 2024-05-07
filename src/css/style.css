@@ -340,6 +340,7 @@ input[type=number]::-webkit-outer-spin-button {
   align-items: center;
 }
 .cartTotal h3 {
+  font-family: "Montserrat", sans-serif;
   color: black!important;
 }
 .cartTotal .totalPrice {
@@ -506,6 +507,7 @@ nav ul li .activeLink::after {
   text-align: center;
 }
 .gridDes h3 {
+  font-size: 100%;
   margin-top: 10px;
 }
 
@@ -560,6 +562,7 @@ nav ul li .activeLink::after {
   margin-bottom: 20px;
 }
 .productShow .detailContent h3 {
+  font-family: "Space Mono", monospace;
   display: block;
 }
 
@@ -697,6 +700,7 @@ label {
   padding-right: 10px;
 }
 .orderHistory .headings h3 {
+  font-family: "Montserrat", sans-serif;
   color: #2d2d2a;
 }
 .orderHistory .orderItem {
@@ -712,6 +716,7 @@ label {
   margin-top: 0;
 }
 .orderHistory .orderItem h3 {
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
 }
 
@@ -921,6 +926,8 @@ p {
 }
 
 .localeSelector label h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
   color: black;
   display: inline-block;
   padding-right: 5px;
