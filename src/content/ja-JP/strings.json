@@ -124,8 +124,8 @@
     },
     "LocaleSelector": {
         "localeLabel": "ロカール",
-        "localeEN": "English - US",
-        "localeJP": "Japanese - Japan"
+        "localeEN": "英語 （米）",
+        "localeJP": "日本語"
     },
     "Special": "特別"
 }
