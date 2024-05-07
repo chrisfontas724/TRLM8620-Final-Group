@@ -47,6 +47,12 @@
         "welcomeSubtitle": "Nintendo is where your dreams come true. For a price.",
         "symbolAlt": "USD"
     },
+
+    "Status": {
+        "delivered": "Delivered",
+        "shipped": "Shipped",
+        "processing":"Processing"
+    },
     
     "Checkout": {
         "checkoutTitle": "Checkout",

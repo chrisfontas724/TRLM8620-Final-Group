@@ -47,6 +47,12 @@
         "welcomeSubtitle": "任天堂で夢を叶えましょう！",
         "symbolAlt": "円"
     },
+
+    "Status": {
+        "delivered": "配達しました",
+        "shipped": "配送中",
+        "processing":"処理中"
+    },
     
     "Checkout": {
         "checkoutTitle": "チェックアウト",
@@ -83,11 +89,11 @@
     },
     "Cart": {
         "cartTitle": "ショッピングカート",
-        "noItemMsg": "No items in cart.",
-        "deleteAlt": "Delete item from cart",
+        "noItemMsg": "カートには商品がない",
+        "deleteAlt": "カートから商品を取り除く",
         "totalTitle": "合計: ",
         "checkoutLabel": "チェックアウト",
-        "closeAlt": "Close Cart"
+        "closeAlt": "カートを閉じる"
     },
     "OrderHistory": {
         "historyTitle": "注文履歴",
