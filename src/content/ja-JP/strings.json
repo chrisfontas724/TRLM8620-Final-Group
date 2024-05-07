@@ -16,18 +16,26 @@
     },
     "desc": {
         "1": "究極の悲劇の舞台を用意した邪悪なグレープとサワーバンチから、ピーチ姫がキラキラ劇場を救うのを手伝いましょう！",
+     
         "2": "パワフルなパフボール、カービィになって新しい冒険の旅に出よう。3Dステージを探検しながら、ショッピングモールのような過去の文明から放棄された建造物がある不思議な世界を発見しよう！新登場のドリルやレンジャーなど、敵の能力をコピーして攻撃に使ったり、周囲を探索したり、さらわれたワドルディーズを獰猛なビーストパックから救い出したり、ミステリアスなエルフィリンと一緒に冒険しよう。忘れられない冒険にワクワクしよう！",
+     
         "3": "ホグワーツ・レガシー」は、「ハリー・ポッター」で初めて登場した世界を舞台にした、没入型オープンワールド・アクションRPGです。ハリー・ポッターの本で初めて登場した世界を舞台にした、没入感あふれるオープンワールド・アクションRPGだ。アクションの主導権を握り、魔法界の冒険の中心に立つことができる。",
+       
         "4": "ルイージがラストリゾートに招待されたが、マリオと仲間たちが行方不明になり、緑色の服を着たヒーローは彼らを救うために恐怖に打ち勝たなければならない！新登場のポルターガストG-00でゴーストを叩いたり、吹き飛ばしたり、掃除機で吸い取ったり、グーイージと力を合わせて各階にある不可解な仕掛けやいたずらなボスを乗り越えよう。そして、これはまさにラストリゾート。スケアスクレイパーに入れば、ワイヤレス*またはオンライン**の8人協力プレイが楽しめます。",
-        "5": "Play anytime, anywhere. Get the gaming system that lets you play the games you want, wherever you are, however you like. Bring the full home gaming system experience with you to the park, on an airplane, in a car, or to a friend's apartment.",
-        "6": "Gaming icons clash in the ultimate brawl you can play anytime, anywhere! Smash rivals off the stage as new characters Simon Belmont and King K. Rool join Inkling, Ridley, and every fighter in Super Smash Bros. history. Enjoy enhanced speed and combat at new stages based on the Castlevania series, Super Mario Odyssey, and more!",
-        "7": "Dedicated to handheld play, the Nintendo Switch Lite system is a small and light system at a great price. With a built-in +Control Pad, and a sleek, unibody design, this system is great for on-the-go gaming.",
-        "8": "Get the gaming system that lets you play the games you want, wherever you are, however you like. Bring the full home gaming system experience with you to the park, on an airplane, in a car, or to a friend's apartment. Experience the bright OLED screen, with the sharpest images you'll ever see on a handheld console.",
-        "9": "Measuring 5.47 meters in length, the ETA-2 is a highly maneuverable combat-oriented starfighter and is faster than its Aethersprite predecessor, with twin ion engines providing a maximum acceleration of 5,200G and a max speed of 1,500 kph. The Eta-2 features wings with upper and lower radiator panels, S-foils, that are opened to shed excess heat from the ship's engines. The radiator wings are primarily opened during intense combat. For defense, the ship featured two laser cannons and two ion cannons. Unlike laser cannons, the ship's ion cannons fire bursts of plasma that cause temporary electrical disruptions to their target upon impact.",
-        "10": "The R3-series astromech game features much of the same hardware as its predecessor, the R2 unit, lacking only the earlier game's extendible video sensor. The R3's chassis is largely cylindrical, appearing as an upright tube with a short, truncated cone at its base. Keeping the game upright are two narrow legs, each of which terminate in a treaded foot shaped like trapezoidal prisms, a third leg is housed within the game body and could be extended when necessary to afford greater stability. Capping the unit's design is a hardy, rotating, plastex or transparisteel dome. The astromech is sealed to allow for functionality in the vacuum of space.",
-        "11": "The T-70 X-wing starfighter is a cruciform starfighter measuring 12.48 meters in length with a maximum capacity of a single pilot and bottom-loaded astromech game, which fits into a socket and can be variably configured for different models. If needed, the game can fly the starfighter without the aid of a pilot, and can even do so remotely. The vessel's targeting computer, flight controls and other essential piloting instruments are located inside an armored cockpit module, under which a removable liquid-cooled flight computer further aids the pilot in ship-based operations. Access panels for computer access and storage exist inside the 'nose' of the vessel, along with an auxiliary generator and storage area typically used for stashing survival gear. A small sensor window marks the location of the ships primary sensor array at the very tip of the nosecone, located behind an emergency beacon. Behind the pilot, a built-in life support system allows the occupant to breathe in an oxygenated atmosphere.",
-        "12": "Affectionately known as a \"wishbone\" to Rebel Alliance and New Republic pilots, the Y-wing starfighter is deployed as a fighter-bomber, designed to fight its way to its objective, deliver its payload of high explosives, and fight its way out again. Its weaponry includes two laser cannons, two ion cannons, and two proton torpedo launchers. An astromech game, such as an R2 unit, can be plugged into a socket behind the cockpit to act as a co-pilot and manage the ship's various systems.",
-        "13": "A pretty good game for coordinating attacks. Not good at fighting, just good at planning."
+      
+        "5": "いつでも、どこでもプレイ。好きなゲームを、好きな場所で、好きなようにプレイできるゲームシステムを手に入れよう。公園でも、飛行機でも、車でも、友達のアパートでも、家庭用ゲーム機で存分に遊べます。",
+       
+        "6": "いつでもどこでも遊べる究極の大乱闘で、ゲームのアイコンたちが激突！新キャラクターのサイモン・ベルモントとキング・K・ルールが、インクリング、リドリー、そして『大乱闘スマッシュブラザーズ』史上すべてのファイターに加わり、ライバルをステージから叩き落とせ。悪魔城ドラキュラ』シリーズや『スーパーマリオ オデッセイ』などを題材にした新ステージでは、スピードと格闘がさらにパワーアップ！",
+        
+        "7": "携帯プレイに特化したNintendo Switch Liteシステムは、小型・軽量でお買い得なシステムです。コントロールパッドが内蔵され、洗練されたユニボディデザインのこのシステムは、外出先でのゲームに最適です。",
+        
+        "8": "好きなゲームを、好きな場所で、好きなようにプレイできるゲームシステムを手に入れよう。公園、飛行機、車の中、友人のアパートなど、家庭用ゲームシステムの完全な体験を持ち運べます。有機ELの明るい画面で、携帯ゲーム機で見たことのないシャープな映像を体験しよう",
+       
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": ""
     },
     "Navbar": {
         "searchPlaceholder": "何をお探しですか。",
