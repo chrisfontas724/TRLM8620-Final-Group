@@ -61,6 +61,12 @@
         "shipped": "配送中",
         "processing":"処理中"
     },
+
+    "Categories": {
+        "games": "ゲーム",
+        "hardware": "ハードウエア",
+        "all":"全ての"
+    },
     
     "Checkout": {
         "checkoutTitle": "チェックアウト",

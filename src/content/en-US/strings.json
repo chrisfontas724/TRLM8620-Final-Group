@@ -53,6 +53,12 @@
         "shipped": "Shipped",
         "processing":"Processing"
     },
+
+    "Categories": {
+        "games": "games",
+        "hardware": "hardware",
+        "all":"All "
+    },
     
     "Checkout": {
         "checkoutTitle": "Checkout",
