@@ -632,7 +632,8 @@ nav ul li .activeLink::after {
 .checkout .checkoutCart h3 {
   margin-top: 10px;
   text-align: center;
-  color: white;
+  font-size: 100%;
+  color: black;
 }
 .checkout .checkoutCart .cartItem {
   margin-top: 20px;
