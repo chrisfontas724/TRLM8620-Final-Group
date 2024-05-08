@@ -83,21 +83,21 @@ var updateLocale = async(newLocale) => {
 //update the shopping cart based on the new product list
 var reloadCart = () => {
 
-    //get references to game and vehicle map
-    let droidMap = productList.get("games");
-    let vehicleMap = productList.get("hardware");
+    //get references to game and hardware map
+    let gameMap = productList.get("games");
+    let hardwareMap = productList.get("hardware");
 
     for(let key in shoppingCart) {
         let product = shoppingCart[key];
         let saveQty;
         if(product.type == "game") {
             saveQty = product.qty;
-            shoppingCart[product.productID] = droidMap.get(product.productID);
+            shoppingCart[product.productID] = gameMap.get(product.productID);
             shoppingCart[product.productID].qty = saveQty;
         }
         else {
             saveQty = product.qty;
-            shoppingCart[product.productID] = vehicleMap.get(product.productID);
+            shoppingCart[product.productID] = hardwareMap.get(product.productID);
             shoppingCart[product.productID].qty = saveQty;
         }
     }
@@ -114,29 +114,29 @@ var saveCart = () => {
     localStorage.setItem("cart", JSON.stringify(cartIds));
 }
 
-//map of maps to hold both vehicles and droids
+//map of maps to hold both hardwares and games
 var productList = new Map();
 productList.set("games", new Map());
 productList.set("hardware", new Map());
 
 //function to get products and push to map
 let getProductsList = async() => {
-    let droidMap = productList.get("games");
-    let vehicleMap = productList.get("hardware");
+    let gameMap = productList.get("games");
+    let hardwareMap = productList.get("hardware");
 
     //clear em out
-    droidMap.clear();
-    vehicleMap.clear();
+    gameMap.clear();
+    hardwareMap.clear();
 
     let productsJSON = await Products.loadProductCatalog();
 
     for(let item of productsJSON) {
-        //loop through parsed json and add to either game Map or vehicle Map
+        //loop through parsed json and add to either game Map or hardware Map
         if(item.type == "game") {
-            droidMap.set(item.productID, item);
+            gameMap.set(item.productID, item);
         }
         else if(item.type == "hardware") {
-            vehicleMap.set(item.productID, item);
+            hardwareMap.set(item.productID, item);
         }
     }
 
@@ -155,20 +155,20 @@ var readCart = () => {
     if(localStorage.getItem("cart") !== null) {
         console.log("found cart in storage, reconstructing...");
 
-        let droidMap = productList.get("games");
-        let vehicleMap = productList.get("hardware");
+        let gameMap = productList.get("games");
+        let hardwareMap = productList.get("hardware");
 
         let cartIdString = localStorage.getItem("cart");
         let cartIds = JSON.parse(cartIdString);
 
         for(let productAr of cartIds) {
             if(productAr[1] == 'game') { //$NON-NLS-L$
-                let product = droidMap.get(parseInt(productAr[0]));
+                let product = gameMap.get(parseInt(productAr[0]));
                 product.qty = parseInt(productAr[2]);
                 shoppingCart[productAr[0]] = product;
             }
             else {
-                let product = vehicleMap.get(parseInt(productAr[0]));
+                let product = hardwareMap.get(parseInt(productAr[0]));
                 product.qty = parseInt(productAr[2]);
                 shoppingCart[productAr[0]] = product;
             }
@@ -209,13 +209,13 @@ let featuredProducts = [];
 let getFeaturedProducts = async () => {
     featuredProducts = [];
 
-    let vehicleMap = productList.get('hardware');
-    let droidMap = productList.get('games');
+    let hardwareMap = productList.get('hardware');
+    let gameMap = productList.get('games');
    
-    featuredProducts.push(vehicleMap.get(5));
-    featuredProducts.push(droidMap.get(1));
-    featuredProducts.push(vehicleMap.get(8));
-    featuredProducts.push(droidMap.get(2));
+    featuredProducts.push(hardwareMap.get(5));
+    featuredProducts.push(gameMap.get(1));
+    featuredProducts.push(hardwareMap.get(8));
+    featuredProducts.push(gameMap.get(2));
 }
 
 export { shoppingCart, addToCart, showCart, router, locale, productList, updateLocale, orderHistory, featuredProducts, saveCart };
