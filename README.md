@@ -5,6 +5,6 @@ With our shared love of gaming, we are making a shopping website for Nintendo, w
 
 Project Plan Link: https://www.figma.com/file/pwjhlSuW6xaMvlpSuGmFrw/Software-Final-Project?type=whiteboard&node-id=0%3A1&t=3gx11Eh7yjizo19A-1
 
-Reflection Link: https://middleburycollege-my.sharepoint.com/:p:/r/personal/bhsieh_middlebury_edu/Documents/Software%20Final%20Presentation.pptx?d=w3629f8e86fda48c1938c671e1c4ed6a8&csf=1&web=1&e=skyJc8
+Reflection Link: https://middleburycollege-my.sharepoint.com/:p:/r/personal/atran_middlebury_edu/Documents/Software%20Funzone%20Final%20Presentation1.pptx?d=w5e8301525df345d3936f8662168124f3&csf=1&web=1&e=3sA027
 
 Thank you Junjun!
