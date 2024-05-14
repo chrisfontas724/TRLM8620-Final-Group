@@ -5,7 +5,8 @@ With our shared love of gaming, we are making a shopping website for Nintendo, w
 
 Project Plan + Reflection Link: https://www.canva.com/design/DAGFBuWCtEo/10cyiefwQhZtcoEc5pTKeQ/edit
 
-*https://middleburycollege-my.sharepoint.com/:p:/r/personal/atran_middlebury_edu/Documents/Software%20Funzone%20Final%20Presentation1.pptx?d=w5e8301525df345d3936f8662168124f3&csf=1&web=1&e=3sA027*
+PDF version of slides:
+https://drive.google.com/file/d/1iVtw5ntF66qm_Bc-f0LARcKG4gnDseeX/view?usp=sharing
 
 Our Project Plan is Slide 2 in our Slides!
 
